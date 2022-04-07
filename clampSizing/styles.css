@@ -1,0 +1,42 @@
+.test {
+  color: red;
+  background-color: black;
+  width: clamp(240px, 50vw, 1000px);
+}
+
+/* h1 {font-size: 48px;}
+h2 {font-size: 24px;}
+p {font-size: 16px;} */
+
+/* h1 {font-size: 3rem;}
+h2 {font-size: 1.5rem;}
+p {font-size: 1rem;}
+/*  */
+
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1em;
+}
+
+.container {
+  font-size: 2em;
+  background-color: orange;
+}
+
+.container p {
+  padding: 2em;
+  /*padding: 2rem;*/
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 200px;
+  place-items: center;
+}
+
+i{
+    background-color: antiquewhite;
+}
