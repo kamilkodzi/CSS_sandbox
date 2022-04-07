@@ -1,0 +1,35 @@
+.required::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  display: block;
+}
+
+/* .required::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  display: block;
+} */
+
+.required::after {
+  content: "*";
+  color: red;
+}
+
+[data-tooltip]::after {
+  position: relative;
+}
+
+[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: lightgray;
+}
