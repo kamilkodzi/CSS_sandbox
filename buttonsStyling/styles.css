@@ -1,0 +1,34 @@
+:root {
+  --background-color: bisque;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+button {
+  margin: 1rem;
+}
+
+.btn {
+  background-color: var(--background-color);
+  color: #222;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn.btn-border-pop::before {
+}
