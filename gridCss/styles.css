@@ -1,0 +1,46 @@
+:root {
+  --navigation-color: #f15025;
+  --main-color: #b3cbb9;
+  --font-color: #2b2920;
+  --side-bar-color: #84a9c0;
+  --footer-color: #f1b5cb;
+  --content1-color: #ddd8b8;
+  --content2-color: #d1ca9f;
+  --content3-color: #b6ac68;
+}
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  color: var(--font-color);
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+nav {
+  background: var(--navigation-color);
+}
+
+main {
+  background: var(--main-color);
+}
+
+#content1 {
+  background: var(--content1-color);
+}
+#content2 {
+  background: var(--content2-color);
+}
+#content3 {
+  background: var(--content3-color);
+}
+
+#sidebar {
+  background: var(--side-bar-color);
+}
+
+footer {
+  background: var(--footer-color);
+}
