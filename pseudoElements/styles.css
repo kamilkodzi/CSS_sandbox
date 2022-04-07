@@ -19,7 +19,7 @@
   color: red;
 }
 
-[data-tooltip]::after {
+[data-tooltip] {
   position: relative;
 }
 
