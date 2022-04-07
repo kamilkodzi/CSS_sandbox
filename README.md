@@ -2,4 +2,7 @@
 
 Here you can find some grid, buttons and new css features that i want to practice.
 
-1.[CSS Media Query](./mediaQuery/styles.css) 1.[Responsive CSS Grid](./gridCss/styles.css) 1.[clamp rem and em](./clamp/styles.css) 1.[Flexbox](./flex/styles.css)
+[CSS Media Query](./mediaQuery/styles.css)
+[Responsive CSS Grid](./gridCss/styles.css)
+[clamp rem and em](./clamp/styles.css)
+[Flexbox](./flex/styles.css)
