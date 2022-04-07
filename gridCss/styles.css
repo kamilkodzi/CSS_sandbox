@@ -17,30 +17,42 @@
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   text-align: center;
+  grid-template-areas:
+    "nav nav nav nav"
+    "sidebar main main main"
+    "sidebar content1 content2 content3"
+    "footer footer footer footer";
 }
 
 nav {
   background: var(--navigation-color);
+  grid-area: nav;
 }
 
 main {
   background: var(--main-color);
+  grid-area: main;
 }
 
 #content1 {
   background: var(--content1-color);
+  grid-area: content1;
 }
 #content2 {
   background: var(--content2-color);
+  grid-area: content2;
 }
 #content3 {
   background: var(--content3-color);
+  grid-area: content3;
 }
 
 #sidebar {
   background: var(--side-bar-color);
+  grid-area: sidebar;
 }
 
 footer {
   background: var(--footer-color);
+  grid-area: footer;
 }
