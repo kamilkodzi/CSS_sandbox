@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    This percentage is based on parent element whitch is body
+    <div class="box fifty-percent">50%</div>
+    <div class="box one-hunderd-pixels">100px</div>
+    <div class="box twenty-five-vh">25vh</div>
+    <hr />
+    <div class="parent">
+      Percentage are based on parent element
+      <div class="box fifty-percent">50%</div>
+      <div class="box fifty-percent-vw">50vw</div>
+      <div class="box one-hunderd-pixels">100px</div>
+    </div>
+    <br />
+    <div class="parent">
+      <p class="message">
+        vh and vw units are based on viewport always not like % on parent
+        element
+      </p>
+    </div>
+    <br />
+    <div class="parent">
+      <p class="message">
+        rem - stands for root - global font size and em stands for parent
+        element
+      </p>
+    </div>
+    <br />
+    <div class="one-rem">1rem</div>
+    <div class="one-em">1em</div>
+    <div class="two-rem">2rem</div>
+    <div class="two-em">2em</div>
+    <hr />
+    <div class="parent">
+      <div class="one-rem">1rem</div>
+      <div class="one-em">1em</div>
+      <div class="two-rem">2rem</div>
+      <div class="two-em">2em</div>
+    </div>
+    <br />
+    <h2>When to use rem ?</h2>
+    <p>Use rem always when working with fonts!</p>
+    <h3>So when to use em?</h3>
+    <p>
+      Better to not use them while defining fontsize. In some particular cases
+      it is useful to size something together with root font - line icons.
+    </p>
+    <div class="icon-container">
+      <div class="icon em-icon"></div>
+      <span class="icon-text">1em icon</span>
+    </div>
+    <div class="icon-container">
+      <div class="icon rem-icon"></div>
+      <span class="icon-text">1rem icon</span>
+    </div>
+    <div class="icon-container large">
+      <div class="icon em-icon"></div>
+      <span class="icon-text">1em icon</span>
+    </div>
+    <div class="icon-container large">
+      <div class="icon rem-icon"></div>
+      <span class="icon-text">1rem icon</span>
+    </div>
+
+    <h2>
+      If em is related to parent font size then maybe using percentage % instead
+    </h2>
+    <p>Exactly that same 2em and 200%</p>
+    <div class="flex-container">
+      <div style="border: solid 2px red; margin: 1px; width: 40%">
+        This box below- has 48 px font size
+      </div>
+      <div class="message-tip">
+        <span class="two-em-text">2em</span> &
+        <span class="two-rem"> 2 rem size looks like this</span> &
+        <span class="two-houndred-percent-text">200%</span>
+      </div>
+    </div>
+  </body>
+</html>

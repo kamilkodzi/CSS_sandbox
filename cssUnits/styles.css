@@ -1,0 +1,91 @@
+.box {
+  background: red;
+  margin: 2px;
+  border: solid 3px;
+}
+div.parent {
+  border: solid;
+  width: 50%;
+}
+
+.fifty-percent {
+  width: 50%;
+}
+.one-hunderd-pixels {
+  width: 100px;
+}
+
+.parent {
+  width: 135px;
+  font-size: 32px;
+}
+
+.twenty-five-vh {
+  height: 25vh;
+}
+
+.fifty-percent-vw {
+  width: 50vw;
+}
+div p.message {
+  width: 80vw;
+  background-color: red;
+  color: rgb(236, 221, 10);
+  border: solid black;
+}
+.message {
+  font-size: 2rem;
+}
+.one-rem {
+  font-size: 1rem;
+}
+.one-em {
+  font-size: 1em;
+}
+.two-rem {
+  font-size: 2rem;
+}
+.two-em {
+  font-size: 2em;
+}
+.icon {
+  background: red;
+  border-radius: 50%;
+  transition: background-color 800ms ease-in-out;
+}
+.icon:hover {
+  background-color: rgb(2, 0, 36);
+}
+.em-icon {
+  width: 1em;
+  height: 1em;
+}
+.rem-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container.large {
+  font-size: 48px;
+}
+.two-em-text {
+  font-size: 2em;
+}
+.two-houndred-percent-text {
+  font-size: 200%;
+}
+
+.message-tip {
+  font-size: 48px;
+  border: solid 2px red;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
