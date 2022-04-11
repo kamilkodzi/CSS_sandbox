@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.parent {
+  background-color: skyblue;
+  padding: 8px;
+  position: relative;
+  height: 200vh;
+}
+.child {
+}
+.child-one {
+  position: relative;
+  left: 10px;
+  background-color: lightgreen;
+}
+.child-two {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  background-color: lightsalmon;
+}
+.child-three {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  background-color: lightpink;
+}
+
+.child-four {
+  position: sticky;
+  top: 0;
+  background-color: hotpink;
+}
