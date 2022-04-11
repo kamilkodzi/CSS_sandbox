@@ -1,0 +1,33 @@
+body {
+  background-color: #c9c9c911;
+  margin: 0;
+}
+.header-large {
+  background-image: url("../assets/photoLarge.avif");
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+.main-nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #3d3d3d;
+}
+.main-nav div {
+  display: inline-block;
+  color: greenyellow;
+  margin-right: 14vw;
+  min-height: 3vh;
+  padding-top: 1vh;
+}
+.main-nav div:first-child {
+  margin-left: 15vw;
+}
+
+.content {
+  margin-top: 50px;
+}
