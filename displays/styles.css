@@ -1,0 +1,23 @@
+#div-1 {
+  display: block;
+  background-color: red;
+}
+
+#span-1 {
+  display: inline;
+  background-color: cyan;
+}
+
+#span-2 {
+  background-color: purple;
+}
+
+#div-2 {
+  display: none;
+  background-color: green;
+}
+#img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
