@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  /* better to use box-sizing: border-box as global */
+}
+
+.box-one {
+  background-color: #eb5757;
+  padding: 20px;
+  border: 10px solid #9b51e0;
+  margin: 60px;
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+}
+
+.box-two {
+  background-color: #2d9cd8;
+  border: 0 solid #27ae60;
+  padding: 20px;
+  margin: 60px;
+  height: 100px;
+  width: 100px;
+}
