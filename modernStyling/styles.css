@@ -337,12 +337,3 @@ body {
   margin: 40px auto 80px auto;
   font-size: 1.75em;
 }
-
-.cart-price-discount {
-  color: #cc4c4c;
-  text-decoration: line-through;
-  font-size: 0.8em;
-  position: absolute;
-  left: 360px;
-  top: 1900px;
-}
